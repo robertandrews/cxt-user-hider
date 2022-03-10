@@ -40,9 +40,8 @@ add_action( 'admin_footer', 'cor_profile_subject_end' );
 
 
 /*
-  * Remove only the admin colour picker.
-  * This is part of Personal Options, so is only optional if Personal Options is not yet disabled.
+  * Remove the admin colour picker.
   */
-  // remove_action( 'admin_color_scheme_picker', 'admin_color_scheme_picker' );
+  remove_action( 'admin_color_scheme_picker', 'admin_color_scheme_picker' );
 
 ?>
