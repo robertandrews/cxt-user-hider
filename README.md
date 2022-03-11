@@ -1,4 +1,4 @@
-# Context ACF Options Hider
+# Context WP User Options Hider
 
 Tested up to: 5.9.1  
 Tags: users, user, wordpress  
